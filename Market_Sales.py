@@ -9,7 +9,7 @@ from dash_bootstrap_templates import load_figure_template
 load_figure_template("minty")
 
 
-df = pd.read_csv("C:/Users/reneb/OneDrive/Área de Trabalho/Python/Asimov/Dash/Market_sales/supermarket_sales.csv")
+df = pd.read_csv("assets/supermarket_sales.csv")
 print(df.columns)
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.MINTY])
 server = app.server

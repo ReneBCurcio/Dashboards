@@ -2,3 +2,5 @@ dash==2.14.1
 numpy==1.21.1
 pandas==1.3.5
 gunicorn
+dash_bootstrap_components== 1.5.0
+dash_bootstrap_templates==1.1.1
